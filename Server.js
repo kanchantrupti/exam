@@ -5,16 +5,15 @@ var app = express();
 var customerController=function (req, res) {
   console.log("Calling rest api");
   var customers=[
-            {firstName:'Trupti',lastName:'Adhav',age:24},
-            {firstName:'Sumit',lastName:'Kharde',age:23},
-            {firstName:'Pradip',lastName:'Kute',age:24},
-            {firstName:'Dhanu',lastName:'Kotkar',age:25},
-            {firstName:'Kalyani',lastName:'Kotkar',age:24}
+            {firstName:'Trupti',lastName:'Adhav',location:'Mumbai',position:'Manager',salary:95000,age:24},
+            {firstName:'Sumit',lastName:'Kharde',location:'Mumbai',position:'Admin',salary:75000,age:23},
+            {firstName:'Pradip',lastName:'Kute',location:'Pune',position:'Employee',salary:60000,age:24},
+            {firstName:'Dhanu',lastName:'Kotkar',location:'Mumbai',position:'Project Manager',salary:55000,age:25},
+            {firstName:'Kalyani',lastName:'Kotkar',location:'Pune',position:'Sales Lead',salary:50000,age:24}
       ];
   res.send(customers);
 };
 
-// setting router to map requests  with controllers
 
 app.get('/customers',customerController );
 
