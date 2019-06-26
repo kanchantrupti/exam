@@ -1,0 +1,4 @@
+Contoso is a multinational company has their 12 offices all over world. They required to build & host website for all employees to access Corporate Customers Accounting related information.
+Company wanted to build & host this Information System in public cloud Google Cloud Platform or AWS.
+
+1) The first challenge company will face  

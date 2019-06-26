@@ -1,0 +1,26 @@
+Functional Requirements:
+1)Authentication
+2)Autherization rule
+3)Business Rule
+4)Transaction correction,adjustments,cancellation
+5)Audit tracking
+6)Reporting requirements
+7)Certification requirements
+8)External Interfaces
+9)
+10)
+
+
+-------------------------------------------------------------
+
+Non-functional Requirements:
+1)Performance
+2)Scalability
+3)Capacity
+4)Availability
+5)Relaibility
+6)Security
+7)Usability
+8)Environment
+9)Managability
+10)
